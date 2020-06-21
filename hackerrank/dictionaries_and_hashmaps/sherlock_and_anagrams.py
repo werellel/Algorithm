@@ -21,6 +21,7 @@ def sherlockAndAnagrams(s):
             continue
         answer += factorial(value) / (factorial(value-2) * 2)
     return int(answer)
+    
 if __name__ == '__main__':
     fptr = open(os.environ['OUTPUT_PATH'], 'w')
 
